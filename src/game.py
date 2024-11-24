@@ -63,7 +63,7 @@ class Game:
 
 
   def give_card(self, give_params):
-    room_id, player_id, nickname, card = (
+    player_id, nickname, card = (
       give_params["player_id"],
       give_params["nickname"],
       give_params["card"]
